@@ -7,14 +7,14 @@
         <div class="all_main">
             <div v-for="val in db" :key="val.id" :class="[`cusoor noname${val.id}`]">
               <div>
-                  <div v-if="val.id==1 || val.id==15 || val.id==16 || val.id==12 || val.id==17" :class="[`image image${val.id}`]" @mouseover="mouseOver(val.id)" @mouseout="mouseOut()">
-                      <img src="https://api.asm.skype.com/v1/objects/0-sa-d2-2eb20f7cda8e1ce944aebf63fb0a7282/views/imgpsh_fullsize_anim" style="width:25px;height:25px"/>
+                  <div v-if="val.id==1 || val.id==15 || val.id==16 || val.id==12 || val.id==17 || val.id==27" :class="[`image image${val.id}`]" @mouseover="mouseOver(val.id)" @mouseout="mouseOut()">
+                      <img src="https://api.asm.skype.com/v1/objects/0-sa-d7-5b59d05dceaa6ec37ed41f0b04445859/views/imgpsh_fullsize_anim" style="width:25px;height:25px"/>
                   </div>
                   <div v-else-if="val.id==9 || val.id==13 || val.id==14 || val.id==24" :class="[`image image${val.id}`]" @mouseover="mouseOver(val.id)" @mouseout="mouseOut()">
                       <img src="https://api.asm.skype.com/v1/objects/0-sa-d7-a1e17bfdd323562c1b5280acfc67c78c/views/imgpsh_fullsize_anim" style="width:20px;height:20px"/>
                   </div>
                   <div v-else-if="val.id==6 || val.id==18 || val.id==21 " :class="[`image image${val.id}`]" @mouseover="mouseOver(val.id)" @mouseout="mouseOut()">
-                      <img src="https://api.asm.skype.com/v1/objects/0-sa-d1-b68984a36d28b823afca8e7e3c186b0d/views/imgpsh_fullsize_anim" style="width:20px;height:20px"/>
+                      <img src="https://api.asm.skype.com/v1/objects/0-sa-d4-ab3d1102d3cbdd735eef924218e26a24/views/imgpsh_fullsize_anim" style="width:20px;height:20px"/>
                   </div>
                   <div v-else-if="val.id==11 || val.id==19 || val.id==22 || val.id==23 || val.id==25 || val.id==26" :class="[`image image${val.id}`]" @mouseover="mouseOver(val.id)" @mouseout="mouseOut()">
                       <img src="https://api.asm.skype.com/v1/objects/0-sa-d4-96f9c7065a2430a85ba588a1a77f5832/views/imgpsh_fullsize_anim" style="width:20px;height:20px"/>
@@ -23,7 +23,7 @@
                       <img src="https://api.asm.skype.com/v1/objects/0-sa-d7-e563a38e2c42a5ffdaaa79c7459d7d5d/views/imgpsh_fullsize_anim" style="width:20px;height:20px"/>
                   </div>
                   <div v-else :class="[`image image${val.id}`]" @mouseover="mouseOver(val.id)" @mouseout="mouseOut()">
-                      <img src="https://api.asm.skype.com/v1/objects/0-sa-d4-2559dd24d29843f55afba819faf0f71c/views/imgpsh_fullsize_anim" style="width:20px;height:20px"/>
+                      <img src="https://api.asm.skype.com/v1/objects/0-sa-d4-ab3d1102d3cbdd735eef924218e26a24/views/imgpsh_fullsize_anim" style="width:20px;height:20px"/>
                   </div>
                 </div>
                   <div v-if="upHere==val.id" :class="[`dis_block${val.id}`]">
@@ -74,7 +74,7 @@ export default {
         { id: 24, kw: "Linh Cảm", time_run: "( H: 1959 - nay )" },
         { id: 25, kw: "Sơn Diệm", time_run: "( Q-H: 1961 - nay )" },
         { id: 26, kw: "Hòa Duyệt", time_run: "( Q-H: 1961 - nay )" },
-        { id: 26, kw: "TĐ. Ngàn Trươi - 15MW", time_run: "Hoạt động năm 2017" },
+        { id: 27, kw: "TĐ. Ngàn Trươi - 15MW", time_run: "Hoạt động năm 2017" },
 
 
         
@@ -153,6 +153,7 @@ export default {
 .dis_block14,
 .dis_block15,
 .dis_block24,
+.dis_block27,
 .dis_block11 {
   width: 200px;
   height: 60px;
@@ -249,7 +250,7 @@ export default {
   transform: rotate(90deg);
 }
 .noname9::before {
-  content: "Sông muối nguyên";
+  content: "Sông Muối Nguyên";
   position: absolute;
   height: 350px;
   width: 150px;
@@ -333,7 +334,7 @@ export default {
   z-index: 100;
 }
 .noname18::after {
-  content: "Tân kỳ";
+  content: "Tân Kỳ";
   position: absolute;
   z-index: 100;
   width: 50px;
@@ -392,7 +393,7 @@ export default {
   z-index: 100;
 }
 .noname20::after {
-  content: "Đập đô lương";
+  content: "Đập Đô Lương";
   position: absolute;
   z-index: 100;
   width: 100px;
@@ -427,7 +428,7 @@ export default {
   font-size: 12px;
 }
 .noname21::before {
-  content: "Sông giăng";
+  content: "Sông Giăng";
   position: absolute;
   z-index: 100;
   width: 100px;
@@ -475,7 +476,7 @@ export default {
   z-index: 100;
 }
 .noname25::after {
-  content: "Sông ngàn phố";
+  content: "Sông Ngàn Phố";
   position: absolute;
   z-index: 100;
   width: 100px;
@@ -492,4 +493,29 @@ export default {
   left: 298px;
   z-index: 100;
 }
+.noname26::after{
+  @extend .fix_after;
+  height: 238px;
+  top: -48px;
+  left: -113px;
+  transform: rotate(90deg);
+}
+.noname27 {
+  @extend .fix_noname;
+  margin-top: 1265px;
+  left: 160px;
+  z-index: 100;
+}
+.noname27::after {
+  content: "Sông Ngàn Tươi";
+  position: absolute;
+  z-index: 100;
+  width: 110px;
+  top: -15px;
+  right: 35px;
+  font-weight: bold;
+  color: black;
+  font-size: 12px;
+}
+
 </style>
