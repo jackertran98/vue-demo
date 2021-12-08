@@ -1,0 +1,395 @@
+p{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    color:#000;
+}
+
+.thubon1{
+    position: relative;
+    top: 0px;
+    left: 20px;
+    z-index: 1;
+  }
+  .thubon1::after {
+    content: ' ';
+    width: 900px;
+    position: absolute;
+    border: 1px solid rgb(14, 13, 13);
+    top:240px;
+    z-index: -1;
+  }
+  .thubon1::before {
+    content: 'TĐ.Sông Bung 2';
+    width: 200px;
+    position: absolute;
+    top: 255px;
+    font-weight: bold;
+    z-index: -100;
+    font-weight: bold;
+    font-size: 12px;
+    color: black;
+  }
+.image_tb1{
+      position: absolute;
+      top:227px;
+      left: 50px;
+  }
+.thubon2{
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    top:227px;
+    left: 150px;
+    z-index: 1;
+}
+.thubon2::after{
+    content: '';
+    height: 240px;
+    position: absolute;
+    border: 1px solid rgb(14, 13, 13);
+    top:-225px;
+    left: 110px;
+    z-index: -1;
+}
+.thubon3{
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    top:227px;
+    left: 200px;
+    z-index: 1;
+}
+.thubon3::before {
+    content: 'TĐ.Sông Bung 4';
+    width: 200px;
+    position: absolute;
+    top: 28px;
+    font-weight: bold;
+    z-index: -1;
+    font-weight: bold;
+    font-size: 12px;
+    color: black;
+}
+.thubon4{
+    position: absolute;
+    width: 248px;
+    height: 60px;
+    top:70px;
+    left: 248px;
+    z-index: 1;
+}
+.thubon4::before {
+    content: 'TĐ.A Vương';
+    width: 200px;
+    position: absolute;
+    left: -80px;
+    font-weight: bold;
+    z-index: -100;
+    font-weight: bold;
+    font-size: 12px;
+    color: black;
+  }
+.thubon5{
+    position: absolute;
+    width: 248px;
+    height: 60px;
+    top:-2px;
+    left: 250px;
+    z-index: 1;
+}
+.thubon6{
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    top:227px;
+    left: 350px;
+    z-index: 1;
+}
+.thubon6::before {
+    content: 'TĐ.Sông Bung 4A';
+    width: 200px;
+    position: absolute;
+    top: 28px;
+    font-weight: bold;
+    z-index: -1;
+    font-weight: bold;
+    font-size: 12px;
+    color: black;
+}
+.thubon7{
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    top:227px;
+    left: 450px;
+    z-index: 1;
+}
+.thubon7::before {
+    content: 'TĐ.Sông Bung 5';
+    width: 200px;
+    position: absolute;
+    top: -15px;
+    font-weight: bold;
+    z-index: -1;
+    font-weight: bold;
+    font-size: 12px;
+    color: black;
+}
+.thubon8{
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    top:227px;
+    left: 550px;
+    z-index: 1;
+}
+.thubon8::before {
+    content: 'TĐ.Sông Bung 6';
+    width: 200px;
+    position: absolute;
+    top: 28px;
+    font-weight: bold;
+    z-index: -1;
+    font-weight: bold;
+    font-size: 12px;
+    color: black;
+}
+.thubon9{
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    top:227px;
+    left: 600px;
+    z-index: 1;
+}
+.thubon10{
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    top:227px;
+    left: 650px;
+    z-index: 1;
+}
+.thubon10::before {
+    content: 'Hội Khách';
+    width: 200px;
+    position: absolute;
+    top: -15px;
+    font-weight: bold;
+    z-index: -1;
+    font-weight: bold;
+    font-size: 12px;
+    color: black;
+}
+.thubon10::after{
+    content: '';
+    height: 100px;
+    position: absolute;
+    border: 1px solid rgb(14, 13, 13);
+    top:-85px;
+    left: 95px;
+    z-index: -1;
+}
+.thubon11{
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    top:150px;
+    left: 736px;
+    z-index: 1;
+}
+.thubon11::after{
+    content: '';
+    height: 130px;
+    position: absolute;
+    border: 1px solid rgb(14, 13, 13);
+    top:-74px;
+    left: 10px;
+    transform: rotate(90deg);
+    z-index: -1;
+}
+.thubon11::before{
+    content: '';
+    height: 100px;
+    position: absolute;
+    border: 1px solid rgb(14, 13, 13);
+    top:-108px;
+    left: -54px;
+    z-index: -1;
+}
+.thubon12{
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    top:105px;
+    left: 671px;
+    z-index: 1;
+}
+.thubon12::before {
+    content: 'TĐ.Sông côn 2';
+    width: 200px;
+    position: absolute;
+    left:-90px;
+    top: 5px;
+    font-weight: bold;
+    z-index: -1;
+    font-weight: bold;
+    font-size: 12px;
+    color: black;
+}
+
+.thubon13{
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    top:60px;
+    left: 671px;
+    z-index: 1;
+}
+.thubon13::before {
+    content: 'TĐ.Sông côn 1';
+    width: 200px;
+    position: absolute;
+    left:-90px;
+    top: 5px;
+    font-weight: bold;
+    z-index: -1;
+    font-weight: bold;
+    font-size: 12px;
+    color: black;
+}
+.thubon13::after{
+    content: '';
+    height: 100px;
+    position: absolute;
+    border: 1px solid rgb(14, 13, 13);
+    top:-18px;
+    left: 140px;
+    z-index: -1;
+}
+.thubon14{
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    top:227px;
+    left: 850px;
+    z-index: 1;
+}
+.thubon14::before {
+    content: 'Ái Nghĩa';
+    width: 200px;
+    position: absolute;
+    left:-20px;
+    top: 25px;
+    font-weight: bold;
+    z-index: -1;
+    font-weight: bold;
+    font-size: 12px;
+    color: black;
+}
+.an_trach{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-top:2px solid black;
+    border-left:2px solid black;
+    border-bottom:2px solid black;
+    right: 80px;
+    top: 100px;
+}
+.ha_thanh{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    right: 60px;
+    top: 128px;
+    border-top:2px solid black;
+    border-left:2px solid black;
+    border-right:2px solid black;
+}
+.song_han{
+    height: 876px;
+    width: 2px;
+    background-color: black;
+    position: absolute;
+    right: 80px;
+    top: 20px;
+}
+.la_tho{
+    position: absolute;
+    width: 160px;
+    height: 300px;
+    border-left:2px solid black;
+    right: 80px;
+    top: 298px;
+}
+.thanh_quyt{
+    position: absolute;
+    height: 160px;
+    width: 2px;
+    background-color: black;
+    transform: rotate(90deg);
+    right: 159px;
+    top: 360px;
+}
+.song_co_ca{
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    border-top:2px solid black;
+    border-left:2px solid black;
+    right: 80px;
+    top: 596px;
+}
+.cua_dai{
+    position: absolute;
+    height: 750px;
+    width: 2px;
+    background-color: black;
+    transform: rotate(90deg);
+    left: 830px;
+    top: 520px;
+}
+.song_ba_ren{
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    border-left:2px solid black;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+    right: 50px;
+    top: 894px;
+}
+.song_vu_gia{
+    position: absolute;
+    width: 2px;
+    background-color: black;
+    height: 654px;
+    right: 415px;
+    top: 240px;
+}
+.son_tan{
+    position: absolute;
+    width: 2px;
+    background-color: black;
+    height: 150px;
+    right: 742px;
+    top: 895px;
+}
+.song_tranh{
+    position: absolute;
+    height: 450px;
+    width: 2px;
+    background-color: black;
+    transform: rotate(90deg);
+    left: 231px;
+    top: 819px;
+}
+.song_khang{
+    position: absolute;
+    width: 2px;
+    background-color: black;
+    height: 150px;
+    right: 810px;
+    top: 1043px;
+}
